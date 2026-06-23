@@ -21,7 +21,7 @@
                     <label for="otp">OTP</label>
                 </div>
                 <div class="btn-group btn-group-temp" role="group">
-                    <button type="button" @click="selectLoginOption(1)" class="btn rounded-3 btn-primary btn-whatsapp"><WhatsAppIcon />&nbsp;Send SMS</button>
+                    <button type="button" @click="selectLoginOption(1)" class="btn rounded-3 btn-primary btn-whatsapp"><PhoneIcon />&nbsp;Login With SMS</button>
                 </div>
                 <div class="clearfix"></div>
                 
@@ -50,7 +50,6 @@
 <script>
     
     import SaveButton from './../UI/SaveButton.vue';
-    import WhatsAppIcon from 'vue-material-design-icons/Whatsapp.vue';
     import EmailIcon from 'vue-material-design-icons/Email.vue';
     import PhoneIcon from 'vue-material-design-icons/Message.vue';
     import axios from 'axios';
@@ -300,3 +299,4 @@
         }
     }
 </script>
+
