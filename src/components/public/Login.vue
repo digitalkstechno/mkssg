@@ -21,7 +21,7 @@
                     <label for="otp">OTP</label>
                 </div>
                 <div class="btn-group btn-group-temp" role="group">
-                    <button type="button" @click="selectLoginOption(1)" class="btn rounded-3 btn-primary btn-whatsapp"><WhatsAppIcon />&nbsp;Login with Whatsapp</button>
+                    <button type="button" @click="selectLoginOption(1)" class="btn rounded-3 btn-primary btn-whatsapp"><WhatsAppIcon />&nbsp;Send SMS</button>
                 </div>
                 <div class="clearfix"></div>
                 
