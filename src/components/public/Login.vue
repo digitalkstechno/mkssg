@@ -64,7 +64,7 @@
         name:'Login',
         components:{
             SaveButton,
-            WhatsAppIcon,
+            
             EmailIcon,
             PhoneIcon
         },
